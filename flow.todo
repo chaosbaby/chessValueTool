@@ -1,0 +1,13 @@
+☐ how to save in db
+    fen moves values
+    ☐ fen  values?
+    ☐ move values
+    ☐ move move1 value1 move2 value2 ....
+
+
+basicNeed:
+    tool exchange fenCode to moveCode
+    crawl values form inter 
+
+valueStr = getvalues() 
+values = formatVaalueStr()
