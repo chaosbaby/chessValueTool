@@ -1,13 +1,34 @@
 ☐ how to save in db
-    fen moves values
-    ☐ fen  values?
-    ☐ move values
-    ☐ move move1 value1 move2 value2 ....
+    ✔ fen valueStr value moves score bestMove @done(19-09-27 01:48)
+    ✘ fen moves values @cancelled(19-09-27 01:48)
+    ✘ move values @cancelled(19-09-27 01:48)
+    ✘ move move1 value1 move2 value2 .... @cancelled(19-09-27 01:48)
 
 
 basicNeed:
-    tool exchange fenCode to moveCode
-    crawl values form inter 
+    ✔ tool exchange fenCode to moveCode @done(19-09-20 06:53)
+    ✔ crawl values form inter @done(19-09-20 06:53)
+    ☐ crawl values form local chess engine:
 
-valueStr = getvalues() 
-values = formatVaalueStr()
+✔ valueStr = getvalues() @done(19-09-20 06:53)
+✔ values = formatValueStr() @done(19-09-20 06:53)
+
+
+✔ rnbakabnr/9/1c5c1/p1p1p1p1p/9/6P2/P1P1P3P/1C5C1/9/RNBAKABNR b - - 1 1` @done(19-09-20 06:53)
+
+
+☐ select fro move helping tool
+deepvalue a fen:
+    ☐ the diff score between b w,
+    ☐ score on the value 
+
+example:
+    ☐ under the cur fen  get score 
+    ☐ under the cur fen  get best move 
+                                       
+
+☐ get score range choose rate
+☐ rate and score ,  add  , addValue to a fen , fenDepthValue
+
+get all fen from a ubb play
+value fen from internet

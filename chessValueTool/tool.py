@@ -23,7 +23,11 @@ def formatChessValues(valuesStr):
 
 
 def getScore(scoreStr):
-    return float(scoreStr.split()[0])
+    try:
+        return int(scoreStr.split()[0])
+    except Exception as e:
+        # print(scoreStr)
+        return 10000
 
 
 def toCodeMove(fenStr):
