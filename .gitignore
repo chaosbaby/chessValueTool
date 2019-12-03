@@ -125,3 +125,4 @@ dmypy.json
 .vscode/
 *.00*
 *book.db
+*tempCodeRunnerFile.py
